@@ -1,0 +1,42 @@
+{
+  "label": "Hospital New Age (St. Fiacre)",
+  "logo": {
+    "txd": "gg_hospital_brand",
+    "txn": "dt1_06_hospdoorsign_d",
+    "width": 1024,
+    "height": 2048,
+    "base": "branding/sign_base.png",
+    "defaults": {
+      "line1": "HOSPITAL GERAL DO",
+      "line2": "GRANDE SUL",
+      "color": "#c30d2f",
+      "accent": "#dd8d0c"
+    },
+    "texts": [
+      { "line": "line1", "color": "accent", "weight": 300, "x": 81, "baseline": 161, "capHeight": 50, "maxWidth": 880 },
+      { "line": "line2", "color": "color", "weight": 800, "x": 75, "baseline": 290, "capHeight": 114, "maxWidth": 885 },
+      { "line": "line1", "color": "accent", "weight": 300, "x": 398, "baseline": 1078, "capHeight": 15, "maxWidth": 300 },
+      { "line": "line2", "color": "color", "weight": 800, "x": 396, "baseline": 1117, "capHeight": 34, "maxWidth": 305 }
+    ],
+    "images": [
+      { "x": 33, "y": 431, "w": 438, "h": 441, "cover": "branding/star_cover.png", "coverX": 25, "coverY": 423 },
+      { "x": 324, "y": 1056, "w": 65, "h": 64, "coverColor": "#ffffff" }
+    ]
+  },
+  "colors": {
+    "interior": {
+      "default": "#9c4a5c",
+      "textures": [
+        { "txn": "SS_V_hospfloorgreen", "txds": ["hp_mri_01_shell", "hp_mri"], "size": 256, "detail": "branding/hospfloorgreen.gray", "mean": 89.5 },
+        { "txn": "cb_mhgnyvnr_d", "txds": ["hp_mri_01_wood", "hp_mri_counter"], "size": 512, "detail": "branding/mhgnyvnr.gray", "mean": 105.0 },
+        { "txn": "ss_v_biofloor2", "txds": ["hp_mri_01_wood", "hp_mri_counter", "hp_mri"], "size": 256, "detail": "branding/biofloor2.gray", "mean": 90.4 }
+      ]
+    },
+    "exterior": {
+      "default": "#8c5a5e",
+      "textures": [
+        { "txn": "white_plaster_rough_02_diff_1k", "txds": ["gg_home_hp", "id1_33_ground", "id1_33_rooftop02b"], "size": 512, "detail": "branding/plaster.gray", "mean": 104.8 }
+      ]
+    }
+  }
+}
