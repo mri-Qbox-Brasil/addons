@@ -21,6 +21,22 @@
     "images": [
       { "x": 33, "y": 431, "w": 438, "h": 441, "cover": "branding/star_cover.png", "coverX": 25, "coverY": 423 },
       { "x": 324, "y": 1056, "w": 65, "h": 64, "coverColor": "#ffffff" }
+    ],
+    "sheets": [
+      {
+        "txd": "gg_hospital_brand",
+        "txn": "v_glass_d_darkgreenv_10percentgrey_a",
+        "width": 512,
+        "height": 1024,
+        "base": "branding/glass_base.png",
+        "texts": [
+          { "line": "line1", "color": "accent", "weight": 300, "x": 178, "baseline": 320, "capHeight": 12, "maxWidth": 150 },
+          { "line": "line2", "color": "color", "weight": 800, "x": 176, "baseline": 348, "capHeight": 26, "maxWidth": 212 }
+        ],
+        "images": [
+          { "x": 128, "y": 304, "w": 46, "h": 48, "coverColor": "rgba(0, 0, 0, 0.733)" }
+        ]
+      }
     ]
   },
   "colors": {
